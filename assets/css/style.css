@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+  background: #12171C;
+  color: white;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  padding: 20px 0px;
+  margin
+box-sizing: border-box;
+transition: .5s;
+}
+nav.black {
+  background: rgba(0,0,0,0.6);
+  height: 37px;
+  padding: 20px 0px;
+}
+nav .logo {
+  color: black;
+  padding: 0px 60px;
+  height: 80px;
+  float: left;
+  font-size: 24px;
+  transition: .5s;
+}
+ nav.black .logo {
+  color: #fff;
+}
+nav ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0px;
+  margin-top: 7px;
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  line-height: 10px;
+  color: black;
+  font-weight: bold;
+  padding: 28px 60px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: .5s;
+}
+nav.black ul li a {
+  color: #fff;
+}
+nav ul li a:focus {
+  outline: none;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  border-bottom: #E2472F solid 4px;
+  transition: none;
+  color: #E2472F;
+}
+section.sec1 {
+  width: 100%;
+  height: 900px;
+  background: url(../../assets/img/accueil.jpg) center 0 no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+}
+section.sec2 {
+  width: 100%;
+  height: 900px;
+  background: url(../../assets/img/thedarkbelow.jpg) center 0 no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+
+}
+section.sec3 {
+  width: 100%;
+  height: 900px;
+  background: url(../../assets/img/housewolves.jpg) center 0 no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+
+}
+section.sec4 {
+  width: 100%;
+  height: 900px;
+  background: url(../../assets/img/thetakenking.jpg) center 0 no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+
+}
+section.sec5 {
+  width: 100%;
+  height: 900px;
+  background: url(../../assets/img/lordsofiron.jpg) center 0 no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+}
+ .content {
+   margin-top: 80px;
+   margin-bottom: 80px;
+ }
+ .content p {
+   width: 900px;
+   margin: 30px auto;
+   text-align: justify;
+   font-size: 20px;
+   line-height: 30px;
+
+
+ }
